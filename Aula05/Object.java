@@ -22,7 +22,7 @@ public class Object {
     */
     Object(){
         //Esse construtor sem parâmetros tá chamando o com parâmetros dando um valor tratado de forma diferente
-        this("Null", 1337);
+        this(null, 0);
         //Inclusive, "this" funciona da mesma forma que você leu na documentação do GML na época
     }
 
